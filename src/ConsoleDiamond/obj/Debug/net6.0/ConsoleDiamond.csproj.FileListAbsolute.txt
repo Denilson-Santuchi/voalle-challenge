@@ -1,0 +1,15 @@
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/bin/Debug/net6.0/ConsoleDiamond
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/bin/Debug/net6.0/ConsoleDiamond.deps.json
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/bin/Debug/net6.0/ConsoleDiamond.runtimeconfig.json
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/bin/Debug/net6.0/ConsoleDiamond.dll
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/bin/Debug/net6.0/ref/ConsoleDiamond.dll
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/bin/Debug/net6.0/ConsoleDiamond.pdb
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ConsoleDiamond.csproj.AssemblyReference.cache
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ConsoleDiamond.GeneratedMSBuildEditorConfig.editorconfig
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ConsoleDiamond.AssemblyInfoInputs.cache
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ConsoleDiamond.AssemblyInfo.cs
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ConsoleDiamond.csproj.CoreCompileInputs.cache
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ConsoleDiamond.dll
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ref/ConsoleDiamond.dll
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ConsoleDiamond.pdb
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond/obj/Debug/net6.0/ConsoleDiamond.genruntimeconfig.cache

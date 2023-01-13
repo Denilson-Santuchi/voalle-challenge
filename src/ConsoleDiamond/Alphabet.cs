@@ -12,6 +12,7 @@ public static class Alphabet
 
         return slicedAlpha;
     }
+
     public static string Reverse(string alphabet)
     {
         char[] slicedAlpha = alphabet.ToCharArray();

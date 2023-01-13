@@ -1,10 +1,11 @@
+using System.Net;
 using System.Net.Mail;
 
 namespace DiamondConsole;
 
 public static class Email
 {
-    public static void Message()
+    public static void Message(string diamond)
     {
         Console.WriteLine("Do you want to receive your diamond by email? [Y/n]");
         var result = Console.ReadLine() ?? "";
@@ -22,8 +23,9 @@ public static class Email
                 email = Console.ReadLine() ?? "";
                 verifyEmail = CheckEmail(email);
             }
+            var subject = "Your diamond with the letters of alphabet";
 
-            Console.WriteLine($"{email}: Email successfully sent!");
+            SendMail(email, subject, diamond);
         }
     }
 
@@ -39,6 +41,33 @@ public static class Email
         catch (FormatException)
         {
             return false;
+        }
+    }
+
+    public static void SendMail(string email, string subject, string message)
+    {
+        var emailFrom = Consts.email;
+        var password = Consts.password;
+
+        var mail = new MailMessage { From = new MailAddress(emailFrom) };
+        mail.To.Add(email);
+        mail.Subject = subject;
+        mail.Body = message;
+
+        using var smtp = new SmtpClient("smtp.office365.com", 587);
+        smtp.UseDefaultCredentials = false;
+        smtp.EnableSsl = true;
+        smtp.Credentials = new NetworkCredential(emailFrom, password);
+
+        try
+        {
+            smtp.Send(mail);
+
+            Console.WriteLine("Email successfully sent!");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"error {ex.Message}");
         }
     }
 }

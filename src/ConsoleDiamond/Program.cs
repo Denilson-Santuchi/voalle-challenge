@@ -12,7 +12,7 @@ public class Program
         var diamond = Diamond.Create(Program._letter);
         Console.Write($"\n{diamond}\n");
 
-        Email.Message();
+        Email.Message(diamond);
     }
 
     public static void Greet()

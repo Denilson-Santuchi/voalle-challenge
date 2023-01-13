@@ -7,7 +7,7 @@ public class Program
     public static void Main()
     {
         var Program = new Program();
-        Program.Game();
+        Program.GetLetter();
 
         var diamond = Diamond.Create(Program._letter);
         Console.Write($"\n{diamond}\n");
@@ -15,11 +15,15 @@ public class Program
         Email.Message();
     }
 
-    private void Game()
+    public static void Greet()
     {
         Console.WriteLine("Hello player!");
         Console.WriteLine("choose a letter to draw a diamond:");
+    }
 
+    public void GetLetter()
+    {
+        Greet();
         var choicedLetter = Console.ReadLine();
 
         // https://learn.microsoft.com/pt-br/dotnet/api/system.char.tryparse?view=net-7.0

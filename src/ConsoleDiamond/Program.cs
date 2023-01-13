@@ -13,6 +13,8 @@ public class Program
         Console.Write($"\n{diamond}\n");
 
         Email.Message(diamond);
+
+        PdfGenerator.Create(Program._letter, diamond);
     }
 
     public static void Greet()

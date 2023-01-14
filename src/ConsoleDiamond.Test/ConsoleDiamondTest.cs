@@ -1,7 +1,6 @@
 using Xunit;
 using System.IO;
 using System;
-using DiamondConsole;
 using FluentAssertions;
 
 namespace DiamondConsole.Test;

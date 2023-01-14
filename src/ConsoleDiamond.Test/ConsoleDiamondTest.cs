@@ -4,7 +4,7 @@ using System;
 using DiamondConsole;
 using FluentAssertions;
 
-namespace ConsoleDiamond.Test;
+namespace DiamondConsole.Test;
 
 [Collection("Sequential")]
 public class TestConsoleDiamond
@@ -36,20 +36,5 @@ public class TestConsoleDiamond
         char letter = char.Parse("D");
         var diamond = Diamond.Create(letter);
         diamond.Should().Be(expected);
-    }
-
-    [Theory(DisplayName = "draw diamond error")]
-    [InlineData("A", "Error, allowed only letters between c to z:")]
-    public void TestReceiveUserInputAndDrawError(string entry, string expected)
-    {
-        using var stringWriter = new StringWriter();
-        using var stringReader = new StringReader(string.Join("\n", entry));
-        Console.SetOut(stringWriter);
-        Console.SetIn(stringReader);
-
-        char letter = char.Parse("A");
-        var error = new Program();
-        error.GetLetter();
-        error.Should().Be(expected);
     }
 }

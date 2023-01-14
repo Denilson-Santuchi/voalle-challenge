@@ -19,6 +19,14 @@
           "ConsoleDiamond.Test.dll": {}
         }
       },
+      "BouncyCastle/1.8.9": {
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.9.0",
+            "fileVersion": "1.8.20343.1"
+          }
+        }
+      },
       "coverlet.collector/3.1.0": {},
       "FluentAssertions/6.5.1": {
         "dependencies": {
@@ -28,6 +36,17 @@
           "lib/netcoreapp3.0/FluentAssertions.dll": {
             "assemblyVersion": "6.5.1.0",
             "fileVersion": "6.5.1.0"
+          }
+        }
+      },
+      "iTextSharp/5.5.13.3": {
+        "dependencies": {
+          "BouncyCastle": "1.8.9"
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {
+            "assemblyVersion": "5.5.13.3",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1130,6 +1149,9 @@
       },
       "xunit.runner.visualstudio/2.4.3": {},
       "ConsoleDiamond/1.0.0": {
+        "dependencies": {
+          "iTextSharp": "5.5.13.3"
+        },
         "runtime": {
           "ConsoleDiamond.dll": {}
         }
@@ -1141,6 +1163,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BouncyCastle/1.8.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-axnBgvdD5n+FnEG6efk/tfKuMFru7R/EoISH9zjh319yb3HD24TEHSAbNN/lTRT2ulOGRxDgOsCjkuk08iwWPg==",
+      "path": "bouncycastle/1.8.9",
+      "hashPath": "bouncycastle.1.8.9.nupkg.sha512"
     },
     "coverlet.collector/3.1.0": {
       "type": "package",
@@ -1155,6 +1184,13 @@
       "sha512": "sha512-hdY/upTFYEc7SFJQ+pKsMZP1J5bELh9feB8kXzk6FKAGE/tvAPDzHd76Z+nIYdgnqkocthaDUq+tKPsGD0um2A==",
       "path": "fluentassertions/6.5.1",
       "hashPath": "fluentassertions.6.5.1.nupkg.sha512"
+    },
+    "iTextSharp/5.5.13.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vtnMhTEJdZFCkLqaQLjD8aqTBIVKHPrSFuSXnxbLEJlvE/j/l88fvG9wtsejXTmhtErMo0lA9T2LdfdfbwplYw==",
+      "path": "itextsharp/5.5.13.3",
+      "hashPath": "itextsharp.5.5.13.3.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.11.0": {
       "type": "package",

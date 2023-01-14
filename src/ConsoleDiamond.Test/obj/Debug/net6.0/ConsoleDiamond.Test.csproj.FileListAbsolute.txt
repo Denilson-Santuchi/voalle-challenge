@@ -106,3 +106,5 @@
 /home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond.Test/obj/Debug/net6.0/ref/ConsoleDiamond.Test.dll
 /home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond.Test/obj/Debug/net6.0/ConsoleDiamond.Test.pdb
 /home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond.Test/obj/Debug/net6.0/ConsoleDiamond.Test.genruntimeconfig.cache
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond.Test/bin/Debug/net6.0/itextsharp.dll
+/home/denilson/Desktop/seletivas/voalle-challenge/src/ConsoleDiamond.Test/bin/Debug/net6.0/BouncyCastle.Crypto.dll
